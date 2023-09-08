@@ -1,0 +1,114 @@
+body {
+    font-family: "verdana", sans-serif;
+    background-color: #FAFAFA;
+}
+
+h3 {
+    text-align: center;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px;
+    margin: 16px 0px;
+}
+
+.grid {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+}
+
+.row {
+    margin: 0;
+    background: white;
+    border: 1px solid black;
+}
+
+.grid-container {
+    border: 1px solid rgb(99, 99, 99);
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    box-shadow: grey 0 10px 20px -10px;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container-top {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0px;
+    justify-content: flex-end;
+    gap: 24px;
+    padding: 32px;
+    align-items: center;
+}
+
+.right-container-bottom {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0px;
+    justify-content: flex-start;
+    padding: 32px;
+}
+
+#size {
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+
+#black,
+#white,
+#clear {
+    background: #FFFFFF;
+    border-radius: 999px;
+    box-shadow: grey 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #5e5df0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid grey;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
