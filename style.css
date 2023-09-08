@@ -27,6 +27,11 @@ h3 {
 .grid {
     display: flex;
     flex-wrap: wrap;
+    border: 1px solid rgb(99, 99, 99);
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    box-shadow: grey 0 10px 20px -10px;
 }
 
 .cell {
@@ -43,6 +48,8 @@ h3 {
     width: 500px;
     background-color: white;
     box-shadow: grey 0 10px 20px -10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .right-container {
@@ -68,7 +75,9 @@ h3 {
     padding: 32px;
 }
 
-#size {
+#size,
+#size-twenty-four,
+#size-thirty-two {
     background: #5E5DF0;
     border-radius: 999px;
     box-shadow: #5E5DF0 0 10px 20px -10px;
